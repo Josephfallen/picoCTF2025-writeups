@@ -1,4 +1,4 @@
-# **picoCTF Write-Up: 3v@l **  
+# picoCTF Write-Up: 3v@l 
 
 ## **Challenge Overview**  
 The challenge involved a vulnerable loan calculator on a bank’s website that allowed users to input a mathematical formula. The backend executed this input using Python’s `eval()` function, creating a security risk. However, the developers attempted to mitigate Remote Code Execution (RCE) by blocking certain keywords and implementing regex filters. Our goal was to bypass these restrictions and read the flag from `/flag.txt`.  
