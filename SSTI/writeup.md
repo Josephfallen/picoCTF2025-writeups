@@ -81,7 +81,7 @@ Since the `flag` file had read permissions for all users (`rw-r--r--`), we could
 
 **Flag Output**:
 ```
-[REDACTED]
+picoCTF{flag_is_here}
 ```
 
 ---
@@ -95,7 +95,7 @@ By exploiting **Server-Side Template Injection (SSTI)**, we gained **Remote Code
 ## Flag
 
 ```
-[REDACTED]
+picoCTF{flag_is_here}
 ```
 
 ---
